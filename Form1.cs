@@ -24,7 +24,7 @@ namespace DatabaseKoneksi
         private string alamat, query;
         public Form1()
         {
-            alamat = "server=localhost; database=db_filkomday; username=root; password=;";
+            alamat = "server=localhost; database=db_mahasiswa; username=root; password=;";
             koneksi = new MySqlConnection(alamat);
             InitializeComponent();
         }
